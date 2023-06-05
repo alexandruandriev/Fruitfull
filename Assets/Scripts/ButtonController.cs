@@ -13,8 +13,6 @@ public class ButtonController : MonoBehaviour
     GameObject MainMenu;
     
     public GameObject SettingsMenu,PauseMenu;
-    [SerializeField]
-    private Settings settings;
     private void Awake()
     {
         CamAnim = GameObject.Find("Main Camera").GetComponent<Animator>();
@@ -57,13 +55,13 @@ public class ButtonController : MonoBehaviour
 
     public void MuteButton()
     {
-        if (settings.MUTE)
+        if (Settings.Instance.MUTE)
         {
-            settings.UnMuteGame();
+            Settings.Instance.UnMuteGame();
         }
         else
         {
-            settings.MuteGame();
+            Settings.Instance.UnMuteGame();
         }
         
     }
