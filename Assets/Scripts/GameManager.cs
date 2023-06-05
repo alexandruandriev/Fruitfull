@@ -8,14 +8,15 @@ public class GameManager : MonoBehaviour
     
     private static GameManager _instance;
     public TMP_Text ScoreText;
-    public GameObject ScorePanel;
+    public GameObject ScorePanel,PausePanel;
     public GameObject GameOverPanel;
 
     public float RestartTime = 3f;
     private int Health = 3;
     public int Score;
-    public bool GameOver = false;
-    public bool GamePaused = true;
+    public bool IsGameOver = false;
+    public bool IsGamePaused = true;
+    public bool IsGameStarted = false;
 
     public static GameManager Instance
     {
@@ -35,7 +36,9 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
-        GamePaused = true;
+        Time.timeScale = 0;
+        IsGameStarted = false;
+        IsGamePaused = true;
     }
 
     // Update is called once per frame
@@ -44,10 +47,24 @@ public class GameManager : MonoBehaviour
 
         ScoreText.text = Score.ToString();
 
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (IsGamePaused)
+            {
+                IsGamePaused = false;
+                PausePanel.SetActive(false);
+            }
+            else
+            {
+                IsGamePaused = true;
+                PausePanel.SetActive(true);
+            }
+
+        }
+
         if(Health == 0)
         {
-            GameOver = true;
+            IsGameOver = true;
             GameOverPanel.SetActive(true);
             ScorePanel.SetActive(false);
             Invoke("RestartGame", RestartTime);
@@ -55,13 +72,14 @@ public class GameManager : MonoBehaviour
         }
         
 
-        if (GamePaused)
+        if (IsGamePaused && IsGameStarted)
         {
             Time.timeScale = 0;
             ScorePanel.SetActive(false);
 
         }
-        else
+        
+        if (!IsGamePaused && IsGameStarted) 
         {
             Time.timeScale = 1;
             ScorePanel.SetActive(true);
@@ -76,7 +94,7 @@ public class GameManager : MonoBehaviour
     public void RestartGame()
     {
         DestroyAllFruits();
-        GameOver = false;
+        IsGameOver = false;
         GameOverPanel.SetActive(false);
         ScorePanel.SetActive(true);
         Score = 0;

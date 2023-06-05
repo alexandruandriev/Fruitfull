@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
  
     void Update()
     {
-        if (GameManager.Instance.GameOver) return;
+        if (GameManager.Instance.IsGameOver) return;
 
         float HorizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * HorizontalInput * speed * Time.deltaTime);

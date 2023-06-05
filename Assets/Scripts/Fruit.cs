@@ -18,6 +18,13 @@ public class Fruit : MonoBehaviour
     {
         AudioSrc = GetComponent<AudioSource>();
     }
+    void Start()
+    {
+        if (Settings.Instance.MUTE)
+        {
+            AudioSrc.volume = 0f;
+        }
+    }
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -64,6 +71,7 @@ public class Fruit : MonoBehaviour
 
     float PlayRandomCatchedSound()
     {
+        
         int rand = Random.Range(0, catchedSounds.Length);
         AudioSrc.PlayOneShot(catchedSounds[rand]);
         return catchedSounds[rand].length;

@@ -1,0 +1,524 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1685956037350339, "dur": 1914126, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685956037350654, "dur": 12401, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685956037363057, "dur": 31150, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685956037394208, "dur": 569890, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685956037964100, "dur": 1290198, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685956039254300, "dur": 10164, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685956039265019, "dur": 18, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1685956037807127, "dur": 137920, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685956037808442, "dur": 47186, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685956037928958, "dur": 4286, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685956037933247, "dur": 11790, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685956037933918, "dur": 10526, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685956037950877, "dur": 1084, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685956037950048, "dur": 1934, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685956039265089, "dur": 195, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1685956038002807, "dur":1098, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956038003912, "dur":56, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1685956038003975, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1685956038003991, "dur":260, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1685956038004276, "dur":571, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956038004847, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956039238566, "dur":150, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956039238716, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956039238726, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956039238728, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956039238734, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956039238736, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956039238743, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956039238745, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956039238750, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956039238751, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956039238755, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956039238757, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956039238762, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956039238763, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956039238768, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956039238770, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956039238775, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956039238784, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956039238805, "dur":1275, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1685956038004555, "dur":299, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685956038004855, "dur":3151, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685956038008021, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685956038008024, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685956038008062, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685956038008070, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685956038008565, "dur":2002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685956038010573, "dur":16325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1685956038026902, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685956038026911, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1685956038027916, "dur":11286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038039208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685956038039454, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038040672, "dur":24188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038064865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685956038065250, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038066151, "dur":44124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038110279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685956038110285, "dur":1017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038111318, "dur":38604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038149926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685956038149933, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038151253, "dur":60564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038211820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685956038211889, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038213155, "dur":45415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038258573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685956038258580, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038259664, "dur":32730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038292397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685956038292404, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038293413, "dur":19182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038312599, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685956038312607, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038313753, "dur":52565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038366322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685956038366328, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038367420, "dur":105702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038473126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685956038473133, "dur":3936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038477081, "dur":30369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038507453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685956038507459, "dur":4476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038511948, "dur":243658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038755610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685956038755637, "dur":2246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038757896, "dur":102678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038860578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685956038860585, "dur":14556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038875154, "dur":124470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956038999628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685956038999635, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685956039000600, "dur":237960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956038004586, "dur":278, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956038004864, "dur":3145, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956038008020, "dur":18880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685956038026903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956038026910, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685956038027834, "dur":1262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1685956038029100, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956038029108, "dur":2873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1685956038032037, "dur":14627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1685956038046668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956038046674, "dur":1252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1685956038047973, "dur":40395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038088371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956038088376, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038090249, "dur":108574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038198827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956038198835, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038199895, "dur":21862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038221761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956038221768, "dur":892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038222672, "dur":107003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038329680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956038329688, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038330662, "dur":35478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038366144, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956038366151, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038367732, "dur":20158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038387894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956038387900, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038388961, "dur":32495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038421459, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956038421466, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038422387, "dur":55331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038477721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956038477727, "dur":29198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038506938, "dur":86044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038592987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956038592994, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038593990, "dur":804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038594815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956038594821, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038595811, "dur":38062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038633877, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956038633885, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038634785, "dur":122511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038757302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956038757813, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038758915, "dur":93471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038852391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956038852399, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038853667, "dur":118900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038972571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956038972579, "dur":4858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956038977451, "dur":248642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956039226115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685956039226123, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685956039227213, "dur":11342, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038004592, "dur":277, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038004869, "dur":3139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038008021, "dur":35789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1685956038043814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038044298, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1685956038045253, "dur":37227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038082502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038082533, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038083430, "dur":35995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038119428, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038119432, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038120458, "dur":104333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038224796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038224803, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038226549, "dur":73513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038300064, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038300070, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038301080, "dur":21173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038322258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038322265, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038323740, "dur":21782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038345527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038345535, "dur":796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038346346, "dur":25145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038371495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038371502, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038372347, "dur":19488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038391840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038391847, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038392864, "dur":27088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038419955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038419961, "dur":820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038420793, "dur":37143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038457940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038457947, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038458761, "dur":41297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038500062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038500068, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038500953, "dur":84362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038585319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038585326, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038586310, "dur":15041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038601356, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038601364, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038602240, "dur":848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038603091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038603098, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038604090, "dur":80695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038684789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038684796, "dur":780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038685588, "dur":99691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038785337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038785344, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038786158, "dur":194066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038980227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038980233, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685956038982168, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685956038982182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038982187, "dur":2642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685956038984841, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1685956038985044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038985048, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1685956038985838, "dur":768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1685956038986609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038986613, "dur":826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1685956038987451, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685956038987467, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038987472, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685956038988232, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1685956038988245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038988249, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1685956038989287, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1685956038989437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685956038989442, "dur":654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1685956038990106, "dur":248462, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685956038004573, "dur":286, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685956038004859, "dur":3152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685956038008021, "dur":12113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685956038020138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685956038020145, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685956038020975, "dur":11391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685956038032369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685956038032376, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685956038033400, "dur":31900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher.exe" }}
+,{ "pid":12345, "tid":4, "ts":1685956038065303, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685956038065307, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher.exe" }}
+,{ "pid":12345, "tid":4, "ts":1685956038066850, "dur":21850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038088703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685956038088708, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038090474, "dur":29191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038119667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685956038119672, "dur":14201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038133885, "dur":92932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038226820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685956038226826, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038227875, "dur":19357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038247236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685956038247243, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038248214, "dur":51718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038299936, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685956038299944, "dur":2957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038302915, "dur":21355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038324273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685956038324280, "dur":2899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038327192, "dur":90854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038418049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685956038418054, "dur":1749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038419817, "dur":19353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038439174, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685956038439182, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038440202, "dur":35915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038476121, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685956038476129, "dur":2337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038478478, "dur":93714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038572196, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685956038572203, "dur":936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038573151, "dur":67700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038640855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685956038640862, "dur":4765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038645642, "dur":175074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038820719, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685956038820726, "dur":3362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956038824169, "dur":180107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956039004280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685956039004287, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685956039005706, "dur":232863, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685956038004612, "dur":263, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685956038004875, "dur":3135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685956038008020, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1685956038008148, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685956038009908, "dur":5744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1685956038015719, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1685956038015838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685956038015859, "dur":5983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1685956038021899, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1685956038022091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685956038022111, "dur":5735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1685956038027890, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1685956038027980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685956038027986, "dur":3595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1685956038031639, "dur":215611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038247253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685956038247256, "dur":10752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038258073, "dur":39026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038297104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685956038297111, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038298263, "dur":49238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038347505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685956038347511, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038348487, "dur":59902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038408394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685956038408401, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038409673, "dur":114306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038523983, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685956038523990, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038525350, "dur":17211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038542565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685956038542573, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038543432, "dur":60790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038604225, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685956038604234, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038605294, "dur":6591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038611889, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685956038611897, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038612834, "dur":141475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038754314, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685956038754322, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038756644, "dur":59846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038816495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685956038816502, "dur":5488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038822005, "dur":169628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038991637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685956038991644, "dur":1808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685956038993467, "dur":245095, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685956038004642, "dur":237, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685956038004880, "dur":3133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685956038008021, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1685956038008090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685956038009915, "dur":6172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1685956038016139, "dur":18005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1685956038034147, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685956038034156, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1685956038035298, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1685956038035398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685956038035860, "dur":9474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1685956038045395, "dur":42888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038088288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685956038088295, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038090232, "dur":29097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038119333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685956038119340, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038120337, "dur":31328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038151668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685956038151673, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038152665, "dur":138440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038291111, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685956038291121, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038292406, "dur":53943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038346351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685956038346357, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038347221, "dur":25909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038373155, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685956038373162, "dur":4489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038377665, "dur":22248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038399916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685956038399922, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038400736, "dur":17293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038418034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685956038418041, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038419875, "dur":45276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038465156, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685956038465164, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038466316, "dur":147405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038613725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685956038613732, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038615317, "dur":272109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038887430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685956038887436, "dur":20965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038908416, "dur":63124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038971544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685956038971551, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956038972547, "dur":263868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956039236419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685956039236424, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685956039238528, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1685956039238531, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038004664, "dur":221, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038004885, "dur":3123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038008021, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1685956038008189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038013670, "dur":2766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1685956038016484, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1685956038016575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038016582, "dur":5439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1685956038022067, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1685956038022178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038022184, "dur":5694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1685956038027925, "dur":78566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038106495, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038106529, "dur":7480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038114062, "dur":18179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038132244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038132249, "dur":1783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038134045, "dur":17075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038151123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038151129, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038152452, "dur":58572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038211028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038211035, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038212277, "dur":53357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038265638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038265711, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038266707, "dur":36278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038302988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038302994, "dur":6971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038309981, "dur":63749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038373734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038373740, "dur":4667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038378422, "dur":19899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038398325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038398332, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038399316, "dur":55871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038455191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038455199, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038456474, "dur":19956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038476432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038476437, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038477498, "dur":87450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038564951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038564959, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038565980, "dur":54902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038620886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038620914, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038622626, "dur":55645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038678275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038678282, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038679620, "dur":106753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038786376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038786382, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038787338, "dur":189111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038976453, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038976461, "dur":2901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685956038979377, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1685956038979570, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038979905, "dur":773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1685956038980690, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1685956038980704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038980718, "dur":814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1685956038981547, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1685956038981562, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038981567, "dur":3203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1685956038984785, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1685956038984800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038984825, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1685956038986284, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1685956038986297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038986302, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1685956038987554, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1685956038987570, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038987575, "dur":742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1685956038988328, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1685956038988341, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038988346, "dur":898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1685956038989257, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1685956038989272, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685956038989277, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1685956038989953, "dur":248619, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956038004690, "dur":200, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956038004890, "dur":3176, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956038008066, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1685956038008159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956038013727, "dur":3015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1685956038016804, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1685956038016897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956038017428, "dur":4422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1685956038021899, "dur":14811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1685956038036714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956038036722, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1685956038037585, "dur":75320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038112909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956038112916, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038114323, "dur":17810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038132137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956038132144, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038133551, "dur":17963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038151517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956038151522, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038152825, "dur":141133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038293961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956038293967, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038294856, "dur":41462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038336322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956038336328, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038337315, "dur":49180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038386499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956038386505, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038387546, "dur":82904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038470455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956038470463, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038471919, "dur":34777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038506700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956038506708, "dur":787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038507507, "dur":69731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038577243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956038577250, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038579203, "dur":1134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038580341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956038580348, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038581172, "dur":89266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038670442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956038670449, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038671273, "dur":149910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038821186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956038821192, "dur":1845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038823052, "dur":56653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038879709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956038879716, "dur":884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038880612, "dur":96731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038977366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956038977374, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956038978595, "dur":30552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956039009151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685956039009160, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Proejcts/Fruitfull 1.0/Fruitfull Catcher_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685956039010042, "dur":228506, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685956039241247, "dur":1708, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1685956039265328, "dur": 744, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685956039265006, "dur": 1082, "ph": "X", "name": "Write chrome-trace events", "args": {} },

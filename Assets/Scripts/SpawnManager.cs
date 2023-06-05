@@ -26,12 +26,12 @@ public class SpawnManager : MonoBehaviour
 
     void Update()
     {
-        if (GameManager.Instance.GameOver)
+        if (GameManager.Instance.IsGameOver)
         {
             StopAllCoroutines();
             spawning = false;
          //TODO Find another way to do this.
-        }else if(GameManager.Instance.GameOver == false && spawning == false)
+        }else if(GameManager.Instance.IsGameOver == false && spawning == false)
         {
             StartCoroutine(SpawnRandomFruit());
             spawning = true;
